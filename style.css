@@ -9,7 +9,11 @@ html, body {
     height: 80vh;
     margin: 0px auto;
 }
-
+body{
+    background: lightpink;
+}
+}*
+}
 
 /* -----------------------------------------------------------
    EXPERIMENT ZONE 1: COLOURS (uncomment one at a time)
