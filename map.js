@@ -21,3 +21,13 @@ L.marker([51.51584024339054, -0.2055474576988727]).addTo(map).bindPopup(`
   <p>The Notting Hill Bookshop became famous in 1999 after its interior had been copied in the Notting Hill film featuring Hugh Grant and Julia Roberts.</p>
   <p>Home of the famous Notting Hill film - my favourite bookshop in London.</p>
 `);
+L.marker([L.marker([51.5224434298673, -0.1292804614092962]).addTo(map).bindPopup(`
+  <h3>SOAS University of London</h3>
+  <p>School of Oriental and African studies </p>
+  <p>Home of my undergraduate degree and great memories from University.</p>
+`);
+L.marker([L.marker([51.49605009109715, -0.18219383071937623]).addTo(map).bindPopup(`
+  <h3>Embassy of Morocco in the United Kingdom</h3>
+  <p>The Embassy of Morocco in London is the official diplomatic office of Morocco located in United Kingdom. It serves as the main representation of a nation’s government abroad and is headed by an ambassador.</p>
+  <p>A representation of my background in London</p>
+`);
