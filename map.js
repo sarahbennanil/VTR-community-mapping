@@ -6,8 +6,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 // add markers to map
-const marker = L.marker([51.588068, -0.070589]).addTo(map).bindPopup(`
-  <h3>Post Bar</h3>
-  <p>Post Bar is cultural centre and music venue offering space for creative projects and cooperative organising.</p>
-  <p>Home of the London School of Solarpunk.</p>
+L.marker([51.498658778661806, -0.16191385330292712]).addTo(map).bindPopup(`
+  <h3>Harry's Dolce Vita</h3>
+  <p>Harry's Dolce Vita is one of my favourite Italian restaurants in London which serves upscale Italian dishes.</p>
+  <p>My go-to Italian spot in London</p>
+`);
+L.marker([51.509913612736824, -0.1266682858401914]).addTo(map).bindPopup(`
+  <h3>London Coliseum </h3>
+  <p>The London Coliserum is an ornate, restored Edwardian theatre with an 80ft stage for opera productions, plus bars and dining</p>
+  <p>Home of The Nutcracker by the English National Ballet.</p>
+`);
+L.marker([51.51584024339054, -0.2055474576988727]).addTo(map).bindPopup(`
+  <h3>The Notting Hill Bookshop </h3>
+  <p>The Notting Hill Bookshop became famous in 1999 after its interior had been copied in the Notting Hill film featuring Hugh Grant and Julia Roberts.</p>
+  <p>Home of the famous Notting Hill film - my favourite bookshop in London.</p>
 `);
